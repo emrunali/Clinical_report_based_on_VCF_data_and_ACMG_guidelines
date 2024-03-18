@@ -1,0 +1,1 @@
+# Clinical_report_based_on_VCF_data_and_ACMG_guidelines
