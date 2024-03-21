@@ -2,7 +2,7 @@
 This project outlines the process of generating a comprehensive PDF report that amalgamates genetic variant data from VCF (Variant Call Format) files with clinical interpretations provided by InterVar, a software tool designed for classifying the pathogenicity of variants according to the ACMG (American College of Medical Genetics and Genomics) guidelines. The workflow includes several key steps, beginning with the cloning of the InterVar repository from GitHub, processing variant data through InterVar with ANNOVAR for annotations, and finally, generating a detailed PDF report that includes both genetic variant information and patient-specific details.
 Process Overview
 
-    Cloning InterVar and Preparing Environment: The process starts with cloning the InterVar tool from its GitHub repository, setting up the environment to include necessary libraries like PyVCF for parsing VCF files, and configuring InterVar to access ANNOVAR for genomic annotations.
+* Cloning InterVar and Preparing Environment: The process starts with cloning the InterVar tool from its GitHub repository, setting up the environment to include necessary libraries like PyVCF for parsing VCF files, and configuring InterVar to access ANNOVAR for genomic annotations.
 
     Data Processing: Variant data from a VCF file are filtered based on quality and specific criteria. The filtered variants are then annotated using ANNOVAR through InterVar to classify each variant according to ACMG standards.
 
